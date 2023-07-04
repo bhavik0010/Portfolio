@@ -25,6 +25,7 @@ function Projects() {
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+
           // <Col md={4} className="project-card">
           //   <ProjectCard
           //     imgPath={chatify}
@@ -79,12 +80,11 @@ function Projects() {
           //     // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
           //   />
           // </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={tower}
               isBlog={false}
-              title="Online Monitering L/G ratio of Cooling towe"
+              title="Online Monitering L/G ratio of Cooling tower"
               description="Developed a system to measure and monitor the L/G (Liquid-to-Gas) ratio of a cooling tower in real-time. Utilized ESP8266 for data collection, Google Sheets API for data storage and soft sensors for accurate measurements"
               ghLink="https://github.com/imnotde25/cooling-tower" 
               // demoLink=""      <--------Please include a demo link here 
